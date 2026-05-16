@@ -19,7 +19,7 @@ const BeCoachlyMVP = () => {
         id: 1,
         name: 'Sarah Chen',
         specialty: 'Weight Management',
-        bio: 'Holistic nutrition coach specializing in sustainable lifestyle changes',
+        bio: 'Holistic nutrition coach specialising in sustainable lifestyle changes',
         rating: 4.9,
         reviews: 47,
         image: '👩‍⚕️',
@@ -54,14 +54,14 @@ const BeCoachlyMVP = () => {
       {
         id: 4,
         name: 'David Park',
-        specialty: 'Diabetes & Medical Nutrition',
-        bio: 'Registered Dietitian with 10+ years in medical nutrition therapy',
+        specialty: 'Diabetes & Nutrition Coaching',
+        bio: 'Registered Health Coach with 10+ years in Nutrition Coaching',
         rating: 4.7,
         reviews: 61,
-        image: '🏥',
+        image: '🥗',
         availability: ['Tue 1-3pm', 'Thu 9-11am', 'Fri 2-4pm'],
         proBono: 4,
-        tags: ['Medical', 'Diabetes', 'Chronic Disease']
+        tags: ['Diabetes', 'Chronic Disease']
       },
       {
         id: 5,
@@ -74,6 +74,18 @@ const BeCoachlyMVP = () => {
         availability: ['Mon 3-5pm', 'Thu 2-4pm', 'Sun 10-12pm'],
         proBono: 2,
         tags: ['Plant-Based', 'Sustainability', 'Ethics']
+      },
+      {
+        id: 6,
+        name: 'Leti Garcia',
+        specialty: 'Maternity Nutrition',
+        bio: 'Passionate about fertility and maternity food nutrition',
+        rating: 4.9,
+        reviews: 44,
+        image: '🤰',
+        availability: ['Mon 3-5pm', 'Tue 9-4pm', 'Fri 9-12pm'],
+        proBono: 2,
+        tags: ['Maternity', 'Sustainability', 'Ethics']
       }
     ];
     setCoaches(demoCoaches);
@@ -95,7 +107,7 @@ const BeCoachlyMVP = () => {
     },
     {
       question: 'How often can you commit?',
-      options: ['Weekly sessions', 'Bi-weekly', 'Monthly check-ins', 'Ad-hoc as needed', 'Group sessions only']
+      options: ['Weekly sessions', 'Fortnightly', 'Monthly check-ins', 'Ad-hoc as needed', 'Group sessions only']
     }
   ];
 
@@ -173,7 +185,7 @@ const BeCoachlyMVP = () => {
             <span className="bg-gradient-to-r from-teal-600 via-blue-600 to-teal-600 bg-clip-text text-transparent">Find Your Perfect Health Coach</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Personalized nutrition & wellness coaching matched to your goals. Start your journey with expert coaches dedicated to your success.
+            Personalised nutrition & wellness coaching matched to your goals. Start your journey with expert coaches dedicated to your success.
           </p>
         </div>
 
