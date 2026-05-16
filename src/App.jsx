@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Heart, Search, MessageSquare, Calendar, Zap, ChevronRight, Star, Users, CheckCircle, Menu, X } from 'lucide-react';
+import { Heart, Search, MessageSquare, Calendar, Zap, Star, Users, CheckCircle, Menu, X } from 'lucide-react';
 
 const BeCoachlyMVP = () => {
   const [currentPage, setCurrentPage] = useState('home');
